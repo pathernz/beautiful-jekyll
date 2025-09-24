@@ -6,23 +6,20 @@
 # --- Required options --- #
 
 # Name of website
-title: Patty's Website
+title: My Portfolio
 
 # Your name to show in the footer
 author: Patricia Hernandez
 
 # --- List of links in the navigation bar --- #
 
-# List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: 
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - Getting Started: "getstarted"                         # ADD THIS LINK
-  Author's home: "http://deanattali.com""
-  Table Demo: "table-demo"              # ADD THIS LINK
-
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Getting Started: "getstarted" 
+  Table Demo: "table-demo"   
 
 # --- Logo --- #
 
@@ -69,7 +66,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: I am a data scientist professional with over five years of experience specializing in social issues within both the public and private sectors. I graduated with a bachelor's degree in Sociology from the Universidad de la República, where I focused on development and education. Additionally, I hold diplomas in Data Science, Database Analysis, and Junior Web Development. My skill set includes certified proficiency in R, Python and advanced knowledge in SQL and Power BI.
 
 # --- General options --- #
 
@@ -82,7 +79,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "pathernz.github.io"
+url-pretty: "https://pathernz.github.io/"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -238,4 +235,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
