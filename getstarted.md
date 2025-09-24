@@ -1,7 +1,15 @@
 ---
-layout: page
-title: Getting Started
+layout: default
+title: 'Getting Started'
 ---
+
+
+<div class="title">
+
+<h1>  {{ page.title }}  </h1>
+
+</div>
+## The easy way (recommended!)
 
 Getting started is *literally* as easy as 1-2-3 :smile:
 
@@ -9,76 +17,84 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 
 ![Installation steps](assets/img/install-steps.gif)
 
+
 <div class="gs-section-01" markdown="1">
 
-### 1. Fork the Beautiful Jekyll repository 
+### 1. Fork this project
 
-Fork the [repository](https://github.com/daattali/beautiful-jekyll) 
-by clicking the Fork button on the top right corner in GitHub.
+Fork this project by clicking the __*Fork*__ button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.
 
 </div>
 
 <div class="gs-section-02" markdown="1">
+### 2. Rename the project to `<yourusername>.github.io`
 
-  ### 2. Build your website in 3 steps
-After you fork the repo, go to **Settings → Pages** in your new repository.  
-Select the branch and folder (usually `master` with `/ (root)` for this template), then click **Save**.  
-Your site will be built automatically. The URL will be:
-
+Click on __*Settings*__ at the top (the cog icon) and on that page you'll have an option to rename the project (*Repository name*). This will create a website with the **Beautiful Jekyll** template that will be available at `https://<yourusername>.github.io` within a couple minutes (check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain) if you want to use a different project name). If after a few minutes your website is still not ready, try making any edit to any file, just to force GitHub to re-build your site.
 </div>
+
+
 <div class="gs-section-03" markdown="1">
+### 3. Customize your website settings
 
-### 3. Activate GitHub Pages
-Once the build is finished, you’ll see a success notice with a link to your site.  
-If it stalls, make a tiny edit (like updating `_config.yml`) or toggle the Pages folder to re-trigger the build.
+Edit the `_config.yml` file to change any settings you want. To edit the file, click on it to view the file and then click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings.
 
+Note that in the video above only one setting in the `_config.yml` file is edited. **You should actually go through the rest of the settings as well. Don't be lazy, go through all the settings!**
 </div>
+
+### 4. Congratulations! You have a website!
+
+After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
+
+Note that this was the easy way to *create* your website, but it does come at a cost: when Beautiful Jekyll gains new features in the future, *updating* your website to include all the latest features is cumbersome. See the [FAQ](https://beautifuljekyll.com/faq/#updating) for help with upgrading in the future.
+
+## The hard way (using ruby gems)
+
+If you followed the easy method above, then you already have your site and you can skip this section! If you want to use Beautiful Jekyll as a ruby gem instead, follow the [advanced installation instructions](https://beautifuljekyll.com/getstarted/#install-steps-hard). This is harder to set up initially, but it makes it super easy to keep your site up to date with Beautiful Jekyll when more features are added in the future.
+
+# Plans
+
+Beautiful Jekyll is, and always will be, free. But if you want to remove the Beautiful Jekyll ad from your website, use a Dark Mode skin, unlock other special rewards, or simply support the development efforts, [check out the different plans](https://beautifuljekyll.com/plans).
+
+# Add your own content
+
+To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file. It's much easier to write markdown than HTML, so that's the recommended approach ([here's a great tutorial](https://markdowntutorial.com/) if you need to learn markdown in 5 minutes).
+
+To see an example of a markdown file, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On that page you can see some nicely formatted text (there's a word in bold, a link, a few bullet points), and if you click on the pencil icon to edit the file, you'll see the markdown code that generated the pretty text. Very easy!
+
+In contrast, look at [`tags.html`](./tags.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
+
+Any markdown or HTML file that you create will be available on your website under `https://<yourusername>.github.io/<pagename>`. For example, if you create a file `about.md` (or `about.html`) then it'll exist at `https://<yourusername>.github.io/about`.
+
+Files you create inside the [`_posts`](./_posts) directory will be treated as blog entries. You can look at the existing files there to get an idea of how to write blog posts. Note the format of the blog post files - they must follow the naming convention of `YEAR-MONTH-DAY-title.md`. After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
+
 
 <style>
-/* Shared look: soft card, subtle shadow, rounded corners */
-.gs-section-01,
-.gs-section-02,
-.gs-section-03 {
-  background: #FFFFFF;
-  border-radius: 14px;
-  padding: 18px 20px;
-  margin: 18px 0;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-  border-left: 6px solid transparent;
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
 }
 
-/* Section-specific “ocean” accents */
-.gs-section-01 { border-left-color: #4DD0E1; background: #F0FBFD; }  /* light aqua wash */
-.gs-section-02 { border-left-color: #0288D1; background: #F4FAFF; }  /* pale ocean blue */
-.gs-section-03 { border-left-color: #00796B; background: #F1FBF8; }  /* seafoam */
-
-/* Typography within each section */
-.gs-section-01 h3,
-.gs-section-02 h3,
-.gs-section-03 h3 {
-  margin-top: 0;
-  font-weight: 700;
-  letter-spacing: 0.2px;
+.title h1 {
+    color: darkred;
+    font-size: 40px;
 }
 
-/* Ocean header hues */
-.gs-section-01 h3 { color: #006064; } /* deep teal */
-.gs-section-02 h3 { color: #0288D1; } /* ocean blue */
-.gs-section-03 h3 { color: #00796B; } /* sea green */
+.gs-section-01 h3 { 
+     color: red }
 
-/* Body text + links */
-.gs-section-01 p,
-.gs-section-02 p,
-.gs-section-03 p,
-.gs-section-01 li,
-.gs-section-02 li,
-.gs-section-03 li { line-height: 1.6; }
+.gs-section-01 p {
+     font-size: 30px;
+}
 
-.gs-section-01 a,
-.gs-section-02 a,
-.gs-section-03 a { text-decoration: none; border-bottom: 1px dotted rgba(2,136,209,0.35); }
+.gs-section-02 h3 { 
+   color: blue
+}
+.gs-section-03 h3 { 
+   color: green
+}
 
-.gs-section-01 a:hover,
-.gs-section-02 a:hover,
-.gs-section-03 a:hover { border-bottom-color: rgba(2,136,209,0.7); }
 </style>
