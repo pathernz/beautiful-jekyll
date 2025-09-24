@@ -102,16 +102,17 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#9ec1a3"
-navbar-text-col: "#1f363d"
-navbar-border-col: "#95d5b2"
-page-col: "#cfe0c3"
-text-col: "#1f363d"
-link-col: "#40798c"
-hover-col: "#70a9a1"
-footer-col: "#9ec1a3"
-footer-text-col: "#1f363d"
-footer-link-col: "#40798c"
+navbar-col:       "#f7a8b8"   # soft pink (navbar background)
+navbar-text-col:  "#4a1c2a"   # deep rose (navbar text)
+navbar-border-col:"#fbc4d2"   # lighter pink (navbar border)
+page-col:         "#fde4ec"   # pale blush (page background)
+text-col:         "#4a1c2a"   # deep rose (general text)
+link-col:         "#b23a48"   # vibrant cherry red-pink (links)
+hover-col:        "#e27396"   # bright pink (hover state)
+footer-col:       "#f7a8b8"   # soft pink (footer background)
+footer-text-col:  "#4a1c2a"   # deep rose (footer text)
+footer-link-col:  "#b23a48"   # cherry pink (footer links)
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
