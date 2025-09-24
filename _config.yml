@@ -13,12 +13,14 @@ author: Patricia Hernandez
 
 # --- List of links in the navigation bar --- #
 
+# List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Getting Started: "getstarted"                         # ADD THIS LINK
+  Author's home: "http://deanattali.com""
 
 # --- Logo --- #
 
