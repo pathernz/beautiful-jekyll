@@ -21,6 +21,8 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - Getting Started: "getstarted"                         # ADD THIS LINK
   Author's home: "http://deanattali.com""
+  Table Demo: "table-demo"              # ADD THIS LINK
+
 
 # --- Logo --- #
 
