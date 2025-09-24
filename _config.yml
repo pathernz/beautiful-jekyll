@@ -104,7 +104,7 @@ post_search: true
 
 navbar-col:       "#f7a8b8"   # soft pink (navbar background)
 navbar-text-col:  "#4a1c2a"   # deep rose (navbar text)
-navbar-border-col:"#fbc4d2"   # lighter pink (navbar border)
+navbar-border-col: "#fbc4d2"   # lighter pink (navbar border)
 page-col:         "#fde4ec"   # pale blush (page background)
 text-col:         "#4a1c2a"   # deep rose (general text)
 link-col:         "#b23a48"   # vibrant cherry red-pink (links)
