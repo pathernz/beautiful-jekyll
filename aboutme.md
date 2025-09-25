@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: PAF 514 Lab 05
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Patricia Hernandez. 
 
-- I rock a great mustache
+- I am taking PAF 514 Data Science II.
 - I'm extremely loyal to my family
 
 What else do you need?
