@@ -70,31 +70,41 @@ Files you create inside the [`_posts`](./_posts) directory will be treated as bl
 
 <style>
 
-.title {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: justify;
-}
+<style>
 
-.title h1 {
-    color: darkred;
-    font-size: 40px;
+body p {
+    color: grey;
 }
-
 .gs-section-01 h3 { 
-     color: red }
+    color: red
+}
 
 .gs-section-01 p {
-     font-size: 30px;
+    font-size: 30px;
 }
 
 .gs-section-02 h3 { 
-   color: blue
-}
+    color: blue
+}  
+
+.gs-section-02 p { 
+    font-style: italic;
+}  
+
 .gs-section-03 h3 { 
-   color: green
+    color: green;
+    text-transform: uppercase; 
 }
 
+.gs-section-03 p {
+    background-color: #f0f0f0;
+}
+
+.gs-section-04 h3 { 
+    color: purple;
+}
+
+.gs-section-04 p {
+    font-weight: bold;
+}
 </style>
